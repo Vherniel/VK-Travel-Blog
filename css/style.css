@@ -5,7 +5,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: rgba(255, 255, 255, 0.9);
+	color: #fff;
 	display: inline-block;
 }
 
@@ -22,24 +22,40 @@ li {
 
 /*  User-define Styling - id  */
 #nav-menu {
-	background-color: #0097e6;
+	background-color: #222D32;
 	padding: 20px 0 20px 0;
 }
 
-#nav-menu ul {
-	width: 238px;
+#nav-container {
+	width: 50%;
+	margin: auto;
+	overflow: hidden;
 }
 
-#nav-list {
+#nav-ul {
 	float: right;
+	position: relative;
+	right: 0;
+}
+
+#nav-ul li {
+	margin: 0 5px 0 5px;
+}
+
+#nav-ul a {
+	color: rgba(255, 255, 255, 0.65);
+}
+
+#nav-ul a:hover {
+	color: rgba(255, 255, 255, 0.9);
 }
 
 #page-logo {
-	float: left;
+	left: 0;
 	margin: 0;
 	padding: 0;
 	display: inline-block;
-	width: 50px;
+	position: relative;
 }
 
 #slideshow {
