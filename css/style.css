@@ -1,5 +1,6 @@
 /*	Tags Styling  */
 body {
+	font-family: 'Rubik', Arial, sans-serif;
 	background-color: #eee;
 }
 
@@ -36,6 +37,7 @@ li {
 	float: right;
 	position: relative;
 	right: 0;
+	font-weight: 500;
 }
 
 #nav-ul li {
@@ -47,7 +49,8 @@ li {
 }
 
 #nav-ul a:hover {
-	color: rgba(255, 255, 255, 0.9);
+	color: #fff;
+	transition: 0.3s;
 }
 
 #page-logo {
@@ -59,7 +62,44 @@ li {
 }
 
 #slideshow {
+	width: 800px;
+	height: 300px;
+	overflow: hidden;
+	border: 10px solid #666;
+}
 
+#slideshow-images {
+	width : 4000px;
+	height: 300px;
+	overflow: hidden;
+	
+	/* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+	animation: slide 16s infinite;
+	-moz-animation: slide 16s infinite;
+	-webkit-animation: slide 16s infinite;
+	-o-animation: slide 16s infinite;
+}
+
+#slideshow-images img {
+	float: left;
+}
+
+.slides {
+	width: 10%;
+}
+
+@keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	97%{margin-left: -3200px;}
+	100%{margin-left: 0px;}
 }
 
 #title {
@@ -67,8 +107,13 @@ li {
 	text-align: center;
 	color: #fff;
 	padding: 50px 80px 50px 80px;
-	font-size: 3em;
 	line-height: 60px;
+}
+
+#title h2 {
+	line-height: normal;
+	font-size: 4em;
+	font-weight: 700;
 }
 
 #bio {
@@ -88,17 +133,21 @@ li {
 }
 
 #footer {
-	color: #fff;
 	margin: 25px 0 0 0;
+	color: #eee;
 }
 
 #main-footer {
-	background-color: #5f636f;
+	background-color: #353535;
 	padding: 25px 0 25px 0;
 }
 
 #secondary-footer {
-	background-color: #353944;
+	line-height: normal;
+	font-size: 0.87em;
+	font-weight: 300;
+	background-color: #1b1b1b;
+	color: rgba(255, 255, 255, 0.35);
 	text-align: center;
-	padding: 15px 0 15px 0;
+	padding: 18px 0 18px 0;
 }
