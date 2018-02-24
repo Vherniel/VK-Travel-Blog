@@ -24,20 +24,24 @@ li {
 /*  User-define Styling - id  */
 #nav-menu {
 	background-color: #222D32;
-	padding: 20px 0 20px 0;
+	padding: 10px 0 10px 0;
 }
 
 #nav-container {
-	width: 50%;
+	width: 75%;
 	margin: auto;
 	overflow: hidden;
+	height: 55px;
+	position: relative;
 }
 
 #nav-ul {
 	float: right;
-	position: relative;
+	position: absolute;
 	right: 0;
 	font-weight: 500;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 #nav-ul li {
@@ -57,8 +61,29 @@ li {
 	left: 0;
 	margin: 0;
 	padding: 0;
+	color: #fff;
+	font-weight: 900;
 	display: inline-block;
-	position: relative;
+	text-transform: uppercase;
+	position: absolute;
+	top: 70%;
+	transform: scaleY(2.0) translateY(-50%);
+}
+
+#page-logo a {
+	position: absolute;
+}
+
+#logo-kean {
+	color: #37A1FF;
+}
+
+#logo-subtitle {
+	text-align: center;
+	font-weight: 400;
+	font-size: 0.6em;
+	letter-spacing: 4px;
+	transform: scaleY(0.6);
 }
 
 #title {
