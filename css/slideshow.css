@@ -6,7 +6,7 @@
 	position: relative;
 }
 
-#slideshow figure div {
+.slides {
 	width: 20%;
 	float: left;
 }

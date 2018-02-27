@@ -54,7 +54,7 @@ li {
 }
 
 .title-underline {
-	
+
 }
 
 /*  User-define Styling - id  */
@@ -211,7 +211,7 @@ li {
 
 #footer-nav-label {
 	color: #37A1FF;
-	font-weight: 500;
+	font-weight: 700;
 	padding-bottom: 20px;
 }
 
@@ -248,7 +248,7 @@ li {
 
 #footer-contacts-label {
 	color: #37A1FF;
-	font-weight: 500;
+	font-weight: 700;
 	padding-bottom: 20px;
 	text-transform: uppercase;
 }
@@ -258,6 +258,13 @@ li {
 	float: left;
 	text-align: center;
 	width: 25%;
+}
+
+#footer-social-label {
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+	font-style: italic;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .fa-facebook {
@@ -278,10 +285,6 @@ li {
 .fa-google {
 	background: #dd4b39;
 	color: white;
-}
-
-#footer-connect {
-	margin: 0 0 10px 0;
 }
 
 #secondary-footer {
