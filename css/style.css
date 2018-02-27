@@ -1,7 +1,13 @@
 /*	Tags Styling  */
 body {
 	font-family: 'PT Sans', Arial, sans-serif;
-	background-color: #eee;
+	background-color: #ccc;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 28px;
 }
 
 @font-face {
@@ -37,6 +43,12 @@ li {
 	margin: auto;
 }
 
+.main-container {
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+}
+
 .fa {
 	padding: 10px;
 	font-size: 20px;
@@ -51,10 +63,6 @@ li {
 	font-size: 0.6em;
 	transform: scaleY(0.6);
 	float: right;
-}
-
-.title-underline {
-
 }
 
 /*  User-define Styling - id  */
@@ -132,17 +140,21 @@ li {
 	transform: scaleY(0.6);
 }
 
-#title {
+#main-section {
+	font-weight: 700;
+	font-size: 28px;
 	text-align: center;
 	color: #454545;
 	padding: 50px 80px 50px 80px;
 	line-height: 60px;
 }
 
-#title h2 {
+#main-section h2 {
+	padding-bottom: 50px;
 	line-height: normal;
-	font-size: 4em;
-	font-weight: 700;
+	font-size: 1.5em;
+	font-weight: 900;
+	font-family: 'Lato';
 }
 
 #bio {
