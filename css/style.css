@@ -1,6 +1,6 @@
 /*	Tags Styling  */
 body {
-	font-family: 'Rubik', Arial, sans-serif;
+	font-family: 'PT Sans', Arial, sans-serif;
 	background-color: #eee;
 }
 
@@ -33,13 +33,13 @@ li {
 }
 
 .container-free {
-	width: 85%;
+	width: 70%;
 	margin: auto;
 }
 
 .fa {
-	padding: 20px;
-	font-size: 30px;
+	padding: 10px;
+	font-size: 20px;
 	width: 20px;
 	text-align: center;
 	text-decoration: none;
@@ -51,6 +51,10 @@ li {
 	font-size: 0.6em;
 	transform: scaleY(0.6);
 	float: right;
+}
+
+.title-underline {
+	
 }
 
 /*  User-define Styling - id  */
@@ -98,10 +102,12 @@ li {
 }
 
 #page-logo {
+	width: 134.09px;
 	left: 0;
 	margin: 0;
 	padding: 0;
 	color: #fff;
+	font-family: 'Maven Pro';
 	font-weight: 900;
 	display: inline-block;
 	text-transform: uppercase;
@@ -127,9 +133,8 @@ li {
 }
 
 #title {
-	background-color: #0097e6;
 	text-align: center;
-	color: #fff;
+	color: #454545;
 	padding: 50px 80px 50px 80px;
 	line-height: 60px;
 }
@@ -162,19 +167,20 @@ li {
 }
 
 #main-footer {
-	background-color: #353535;
+	background-color: #252525;
 	padding: 50px 0 50px 0;
-	height: 350px;
+	height: 130px;
 }
 
 #footer-logo-wrapper {
 	display: inline-block;
-	width: 26%;	
+	width: 25%;
 	float: left;
 }
 
 #footer-logo {
 	text-transform: uppercase;
+	font-family: 'Maven Pro';
 	font-weight: 900;
 	font-size: 1.6em;
 	transform: scaleY(2.3);
@@ -190,31 +196,16 @@ li {
 	text-align: center;
 	transform: scaleY(0.37);
 	line-height: 13px;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 0.75em;
 	letter-spacing: 5px;
 }
 
-#footer-description {
-	color: rgba(255, 255, 255, 0.4);
-	text-align: center;
-	padding-right: 10px;
-}
-
-#seperator-container {
-	width: 30px;
-	margin-left: 30px;
-	display: inline-block;
-}
-
-#seperator-footer {
-	border-left: 1px solid #585858;
-	height: 100px;
-}
-
 #footer-nav-wrapper {
 	display: inline-block;
-	width: 40%;
+	width: 25%;
+	float: left;
+	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -223,7 +214,6 @@ li {
 	font-weight: 500;
 	padding-bottom: 20px;
 }
-
 
 #footer-nav-ul li {
 	display: block;
@@ -236,18 +226,38 @@ li {
 }
 
 #footer-nav-ul li a:hover {
-	color: #fff;
+	color: #ffffff;
 	transition: 0.4s;
 }
 
 #footer-contacts-wrapper {
 	display: inline-block;
 	float: left;
-	width: 30%;
+	text-align: center;
+	width: 25%;
 }
 
-#social-media-wrapper {
-	height: 40px;
+#footer-contacts-wrapper li {
+	display: block;
+	padding-bottom: 15px;
+}
+
+#footer-contacts-wrapper li a {
+	color: rgba(255, 255, 255, 0.65);
+}
+
+#footer-contacts-label {
+	color: #37A1FF;
+	font-weight: 500;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+#footer-social-wrapper {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 25%;
 }
 
 .fa-facebook {
@@ -270,9 +280,8 @@ li {
 	color: white;
 }
 
-.fa-linkedin {
-	background: #007bb5;
-	color: white;
+#footer-connect {
+	margin: 0 0 10px 0;
 }
 
 #secondary-footer {
@@ -293,4 +302,10 @@ li {
 #secondary-footer a:hover {
 	color: rgba(255, 255, 255, 0.65);
 	transition: 0.35s;
+}
+
+@media only screen and (max-width: 768px) {
+	html, body {
+		display: none;
+	}
 }
