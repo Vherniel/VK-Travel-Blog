@@ -1,0 +1,18 @@
+/* Lebis */
+
+main {
+  font-size: 28px;
+  font-family: "PT Sans";
+  color: #454545;
+  font-weight: 700;
+}
+
+#lebis-container {
+  margin: auto;
+  width: 75%;
+  overflow: hidden;
+}
+
+#lebis-wrapper {
+  
+}
