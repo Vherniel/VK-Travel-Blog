@@ -1,7 +1,7 @@
 /*	Tags Styling  */
 body {
 	font-family: 'PT Sans', Arial, sans-serif;
-	background-color: #ccc;
+	background-color: #ddd;
 }
 
 p {
@@ -41,7 +41,7 @@ hr {
 }
 
 .main-container {
-	width: 60%;
+	width: 50%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -142,7 +142,7 @@ hr {
 	font-size: 28px;
 	text-align: center;
 	color: #282828;
-	padding: 50px 80px 50px 80px;
+	padding: 50px 0 50px 0;
 	line-height: 60px;
 }
 
@@ -159,7 +159,27 @@ hr {
 
 #welcome p {
 	margin-bottom: 28px;
-	text-align: justify;
+	text-align: center;
+}
+
+#quotes {
+	font-size: 28px;
+	font-weight: 700;
+	text-align: left;
+	color: #454545;
+}
+
+#quotes h2 {
+	line-height: normal;
+	font-size: 1.5em;
+	font-weight: 900;
+	font-family: 'Lato';
+	text-align: center;
+}
+
+#quotes p {
+	text-align: right;
+	padding: 50px 7px 50px 0;
 }
 
 #bio {
