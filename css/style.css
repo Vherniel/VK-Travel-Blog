@@ -20,6 +20,14 @@ li {
 	display: inline-block;
 }
 
+hr {
+	height: 7px;
+	margin: 30px auto 60px auto;
+	background-color: #888;
+	border: 0;
+	width: 100px;
+}
+
 /*  User-define Styling - class  */
 .container {
 	width: 85%;
@@ -139,7 +147,6 @@ li {
 }
 
 #main-section h2 {
-	padding-bottom: 50px;
 	line-height: normal;
 	font-size: 1.5em;
 	font-weight: 900;
@@ -150,17 +157,29 @@ li {
 	color: #454545;
 }
 
+#welcome p {
+	margin-bottom: 28px;
+	text-align: justify;
+}
+
 #bio {
 	font-weight: 700;
 	font-size: 28px;
 	text-align: center;
 	color: #282828;
-	padding: 50px 80px 50px 80px;
 	line-height: 60px;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+#bio img {
+	border-radius: 50%;
+	width: 175px;
+	height: 175px;
 }
 
 #bio h1 {
-	padding-bottom: 50px;
+	margin-top: 50px;
 	line-height: normal;
 	font-size: 1.5em;
 	font-weight: 900;
@@ -169,26 +188,16 @@ li {
 
 #bio p {
 	color: #454545;
+	font-family: "PT Sans";
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+	margin: 0 0 40px 0;
 }
 
-#lebis {
-
-}
-
-#lebis img {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-}
-
-#nobleza {
-
-}
-
-#nobleza img {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
+#bio h4 {
+	text-transform: uppercase;
+	margin: 25px auto 0;
 }
 
 #mini-showcase {
