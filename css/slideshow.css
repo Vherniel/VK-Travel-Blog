@@ -1,5 +1,16 @@
 /*  Slideshow  */
 
+@font-face {
+    font-family: "Code Bold";
+    src: url("../fonts/code-bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Code Light";
+    font-weight: bold;
+    src: url("../fonts/code-light.otf") format("opentype");
+}
+
 #slideshow {
 	overflow: hidden;
 	height: 500px;
@@ -39,15 +50,32 @@
 	100%{margin-left: 0px;}
 }
 
-#slideshow p {
-	font-size: 100px;
+.second-logo-wrapper {
 	z-index: 20;
 	position: absolute;
 	width: 20%;
-	padding: 50px 0 50px 0;
+	margin: 50px 0;
 	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Code Bold";
 }
 
-.slides {
+.second-logo-wrapper h1 {
+	background-color: black;
+	font-size: 6em;
+	margin: 0;
+	padding: 70px 35px 50px 35px;
+	border-radius: 50%;
+	letter-spacing: -4px;
+	display: inline-block;
+}
 
+.second-logo-wrapper p {
+	padding: 23px 0;
+	color: black;
+	margin: 0;
+	font-size: 2em;
+	letter-spacing: 16px;
+	font-family: "Code Bold";
 }

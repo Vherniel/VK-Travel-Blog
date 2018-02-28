@@ -10,17 +10,6 @@ p {
 	line-height: 28px;
 }
 
-@font-face {
-    font-family: "Code Bold";
-    src: url("../fonts/code-bold.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "Code Light";
-    font-weight: bold;
-    src: url("../fonts/code-light.otf") format("opentype");
-}
-
 a {
 	text-decoration: none;
 	color: #fff;
@@ -110,7 +99,7 @@ li {
 }
 
 #page-logo {
-	width: 134.09px;
+	width: auto;
 	left: 0;
 	margin: 0;
 	padding: 0;
@@ -120,7 +109,7 @@ li {
 	display: inline-block;
 	text-transform: uppercase;
 	position: absolute;
-	top: 70%;
+	top: 80%;
 	transform: scaleY(2.0) translateY(-50%);
 }
 
@@ -215,9 +204,9 @@ li {
 
 #footer-nav-wrapper {
 	display: inline-block;
-	width: 25%;
 	float: left;
-	text-align: center;
+	width: 15%;
+	padding-left: 60px;
 	text-transform: uppercase;
 }
 
@@ -245,7 +234,7 @@ li {
 #footer-contacts-wrapper {
 	display: inline-block;
 	float: left;
-	text-align: center;
+	padding-left: 30px;
 	width: 25%;
 }
 
@@ -267,7 +256,7 @@ li {
 
 #footer-social-wrapper {
 	display: inline-block;
-	float: left;
+	float: right;
 	text-align: center;
 	width: 25%;
 }
