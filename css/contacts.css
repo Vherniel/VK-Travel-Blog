@@ -1,0 +1,52 @@
+.contacts-container {
+  margin: auto;
+  width: 65%;
+  overflow: hidden;
+  font-size: 28px;
+  padding: 100px 0;
+}
+
+.contacts-wrapper {
+  background-color: #eee;
+  display: inline-block;
+  width: 100%;
+}
+
+.image-center {
+  width: auto;
+  margin: 
+}
+
+#lebis-images-wrapper img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#lebis-images-wrapper {
+  float: left;
+  width: 35%;
+  display: block;
+}
+
+#lebis-description-wrapper {
+  width: 65%;
+  float: left;
+  display: inline-block;
+}
+
+#kean-images-wrapper img {
+  width: 50%;
+  border-radius: 50%;
+
+}
+
+#kean-images-wrapper {
+  float: right;
+  width: 35%;
+}
+
+#kean-description-wrapper {
+  width: 65%;
+  float: right;
+  display: inline-block;
+}

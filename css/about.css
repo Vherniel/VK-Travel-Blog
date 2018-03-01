@@ -80,3 +80,7 @@ main {
   width: 200px;
   height: 200px;
 }
+
+#final-thoughts p {
+  margin: 0 0 100px 0;
+}
