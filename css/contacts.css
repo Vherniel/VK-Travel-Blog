@@ -15,13 +15,42 @@ h1 {
 }
 
 .contacts-wrapper {
-  background-color: #ccc;
-  padding: 20px;
-  border-radius: 20px;
+  background: #ccc;
   margin-bottom: 75px;
+  border-radius: 25px;
+  padding: 25px;
+  position: relative;
+}
+
+.contacts-wrapper:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.picture-label-wrapper {
+  float: left;
+  text-align: center;
+  width: 30%;
+  position: inherit;
+}
+
+.picture-label-wrapper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.lebis img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .description {
-  width: 80%;
-  float: right;
+  float: left;
+  margin-left: 20px;
+  width: calc(70% - 20px);
 }
