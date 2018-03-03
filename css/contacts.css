@@ -1,52 +1,27 @@
-.contacts-container {
-  margin: auto;
-  width: 65%;
-  overflow: hidden;
-  font-size: 28px;
-  padding: 100px 0;
+main {
+  font-size: 18px;
+  font-family: "PT Sans";
+  font-weight: 700;
+  color: #585858;
+}
+
+h1 {
+  font-family: "Lato";
+  font-weight: 900;
+  color: #454545;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 44px;
 }
 
 .contacts-wrapper {
-  background-color: #eee;
-  display: inline-block;
-  width: 100%;
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 75px;
 }
 
-.image-center {
-  width: auto;
-  margin: 
-}
-
-#lebis-images-wrapper img {
-  width: 100%;
-  border-radius: 50%;
-}
-
-#lebis-images-wrapper {
-  float: left;
-  width: 35%;
-  display: block;
-}
-
-#lebis-description-wrapper {
-  width: 65%;
-  float: left;
-  display: inline-block;
-}
-
-#kean-images-wrapper img {
-  width: 50%;
-  border-radius: 50%;
-
-}
-
-#kean-images-wrapper {
+.description {
+  width: 80%;
   float: right;
-  width: 35%;
-}
-
-#kean-description-wrapper {
-  width: 65%;
-  float: right;
-  display: inline-block;
 }
