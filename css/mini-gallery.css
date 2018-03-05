@@ -11,7 +11,7 @@ main {
 	width: 75%; /*Same as width of the large image*/
 	position: relative;
 	/*Instead of height we will use padding*/
-	padding-top: 500px; /*That helps bring the labels down*/
+	padding-top: 450px; /*That helps bring the labels down*/
   height: 200px;
 
 	margin: auto;
@@ -24,6 +24,7 @@ main {
 .slider>img{
 	position: absolute;
 	left: 0; top: 0;
+  height: 400px;
 /*	transition: all 0.5s;*/
 }
 
