@@ -1,0 +1,19 @@
+#gallery-landing {
+  position: relative;
+}
+
+#landing {
+  width: 100%;
+  height: 400px;
+  filter: brightness(40%);
+}
+
+#label {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 100px;
+  font-family: "Lato";
+}
