@@ -7,15 +7,6 @@ main {
   text-align: center;
 }
 
-h1 {
-  font-family: "Lato";
-  font-weight: 900;
-  color: #454545;
-  text-align: center;
-  margin-top: 75px;
-  font-size: 44px;
-}
-
 .slider{
 	width: 75%; /*Same as width of the large image*/
 	position: relative;

@@ -94,11 +94,12 @@ hr {
 #nav-ul a {
 	font-family: "Source Sans Pro";
 	color: rgba(255, 255, 255, 0.65);
+	transition: 0.3s;
 }
 
 #nav-ul a:hover {
 	color: #fff;
-	transition: 0.4s;
+	transition: 0.3s;
 }
 
 .spacer {
@@ -117,7 +118,7 @@ hr {
 	display: inline-block;
 	text-transform: uppercase;
 	position: absolute;
-	top: 80%;
+	top: 70%;
 	transform: scaleY(2.0) translateY(-50%);
 }
 
@@ -309,15 +310,16 @@ hr {
 	display: block;
 	padding-bottom: 15px;
 	font-weight: 300;
+	transition: 0.3s;
 }
 
 #footer-nav-ul li a {
 	color: rgba(255, 255, 255, 0.65);
+	transition: 0.3s;
 }
 
 #footer-nav-ul li a:hover {
 	color: #ffffff;
-	transition: 0.4s;
 }
 
 #footer-contacts-wrapper {
