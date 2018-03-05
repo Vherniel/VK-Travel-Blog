@@ -213,6 +213,9 @@ hr {
 	font-size: 20px;
 	font-weight: 400;
 	font-style: italic;
+}
+
+#bio .spacer {
 	margin: 0 0 40px 0;
 }
 
@@ -320,6 +323,7 @@ hr {
 
 #footer-nav-ul li a:hover {
 	color: #ffffff;
+	transition: 0.3s;
 }
 
 #footer-contacts-wrapper {
