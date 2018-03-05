@@ -88,7 +88,7 @@ hr {
 }
 
 #nav-ul li {
-	margin: 0 5px 0 5px;
+	margin: 0 10px 0 10px;
 }
 
 #nav-ul a {
@@ -351,7 +351,7 @@ hr {
 
 #footer-social-wrapper {
 	display: inline-block;
-	float: right;
+	float: left;
 	text-align: center;
 	width: 25%;
 }
