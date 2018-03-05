@@ -7,6 +7,15 @@ main {
   text-align: center;
 }
 
+h2 {
+  line-height: normal;
+	font-size: 36px;
+  color: #282828;
+	font-weight: 900;
+	font-family: 'Lato';
+  text-align: center;
+}
+
 .slider{
 	width: 75%; /*Same as width of the large image*/
 	position: relative;
