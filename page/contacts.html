@@ -36,9 +36,46 @@
 			<div class="spacer">&nbsp;</div>
 			<!-- Main contacts section -->
 			<main>
-				<div class="container">
-					<h1>Get in touch with us</h1>
-					<hr>
+				<h1>Get in touch with us</h1>
+				<hr>
+				<div class="container-big">
+					<form class="important" action="../script/submit.php" method="POST">
+						<fieldset>
+
+							<input id="first-name" type="text" name="firstName" placeholder="First name"><br>
+
+							<input id="last-name" type="text" name="lastName" placeholder="Last name"><br>
+
+							<input id="e-mail" type="text" name="eMail" placeholder="E-mail address"><br>
+
+							<input id="phone-number" type="text" name="phoneNumber" placeholder="Phone number"><br>
+
+							<select id="gender" name="gender">
+								<option>Gender</option>
+								<option value="male">Male</option>
+								<option value="femae">Female</option>
+								<option value="others">Others</option>
+							</select><br>
+
+							<select id="age" name="age">
+								<option>Age</option>
+								<option value="lt13">Less than 13 Years old</option>
+								<option value="13-17">13-17 Years old</option>
+								<option value="17-21">17-21 Years old</option>
+								<option value="21-35">21-35 Years old</option>
+								<option value="35-60">35-60 Years old</option>
+								<option value="gt60">Greater than 60 Years old</option>
+							</select>
+
+							<textarea id="comment" name="comment" rows="3" cols="80" placeholder="Enter your messege here..."></textarea>
+							<br>
+
+							<button id="submit" type="submit" name="submit">Submit</button>
+
+						</fieldset>
+					</form>
+
+
 				</div>
 			</main>
 			<!--  Footer  -->

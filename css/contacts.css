@@ -1,8 +1,16 @@
+.container-big {
+  margin: auto;
+  width: 60%;
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+}
+
 main {
-  font-size: 18px;
+  font-size: 24px;
   font-family: "PT Sans";
-  font-weight: 700;
   color: #585858;
+  font-weight: 700;
 }
 
 h1 {
@@ -14,43 +22,111 @@ h1 {
   font-size: 44px;
 }
 
-.contacts-wrapper {
-  background: #ccc;
-  margin-bottom: 75px;
-  border-radius: 25px;
-  padding: 25px;
-  position: relative;
-}
-
-.contacts-wrapper:after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
-.picture-label-wrapper {
+input {
+  padding: 15px;
+  margin: 15px;
   float: left;
-  text-align: center;
-  width: 30%;
-  position: inherit;
-}
-
-.picture-label-wrapper:after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-.lebis img {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border-radius: 50%;
+  border: 1px solid #aaa;
+  border-radius: 7px;
 }
 
-.description {
-  float: left;
-  margin-left: 20px;
-  width: calc(70% - 20px);
+#first-name {
+  width: calc(50% - 60px);
+  top: 0%;
+  left: 0;
+
+}
+
+#last-name {
+  width: calc(50% - 60px);
+  left: 50%;
+  top: 0%;
+}
+
+#e-mail {
+  width: calc(50% - 60px);
+  left: 0;
+  top: 15%;
+}
+
+#phone-number {
+  width: calc(50% - 60px);
+  top: 15%;
+  left: 50%;
+}
+
+#gender {
+  position: absolute;
+  width: calc(50% - 30px);
+  top: 30%;
+  left: 0;
+  margin: 15px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 7px;
+}
+
+#age {
+  position: absolute;
+  width: calc(50% - 30px);
+  top: 30%;
+  left: 50%;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #aaa;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+#comment {
+  position: absolute;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #aaa;
+  border-radius: 7px;
+  resize: none;
+  top: 45%;
+  left: 0;
+  width: calc(100% - 60px);
+}
+
+#submit {
+  position: absolute;
+  width: calc(50% - 60px);
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #aaa;
+  border-radius: 7px;
+  top: 67%;
+  left: 0;
+  background-color: #fff;
+  cursor: pointer;
+
+}
+
+/* PHP Submit */
+
+main h2 {
+  line-height: normal;
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 15px 0 10px 0;
+  font-family: 'Lato';
+  margin: 50px 0;
+}
+
+main a {
+  color: #37A1FF;
+  transition: 0.4s;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+main a:hover {
+  color: #2487E9;
+  transition: 0.4s;
+  text-decoration: underline;
 }

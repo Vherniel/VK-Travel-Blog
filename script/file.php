@@ -1,3 +1,0 @@
-<?php
-	/* Code starts here.	*/
-?>
